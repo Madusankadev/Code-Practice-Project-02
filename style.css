@@ -29,6 +29,7 @@
     display: flex;
     justify-content: end;
     padding-top: 32px;
+    margin-bottom: 22px;
 }
 
 .btn {
@@ -106,4 +107,24 @@ span {
 .bottomBtnBox > button:hover {
     border-color: var(--themeColor);
     color: var(--themeColor);
+}
+
+@media screen and (max-width: 740px) {
+    .br1 {
+        display: none;
+    }   
+
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .bottomBtnBox {
+
+    }
+
+    .bottomBtnBox .btn {
+        margin: 10px;
+    }
 }
